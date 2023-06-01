@@ -1,0 +1,49 @@
+.slider {
+    /* background-color: darkblue; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .slideImage {
+    width: 400px;
+    height: 400px;
+
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .prevButton,
+  .nextButton {
+    /* position: absolute;
+    top: 50%; */
+    /* transform: translateY(-50%); */
+    padding: 10px;
+    /* background-color: #000; */
+    color: skyblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 32px;
+    cursor: pointer;
+  }
+  
+  .prevButton {
+    left: 10px;
+  }
+  
+  .nextButton {
+    right: 10px;
+  }
+
+  .slideCount {
+    font-size: 14px;
+    color: skyblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
